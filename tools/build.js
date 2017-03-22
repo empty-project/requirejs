@@ -1,7 +1,7 @@
-{
-    appDir: '../www',
-    mainConfigFile: '../www/js/common.js',
-    dir: '../www-built',
+({
+    appDir: '../app',
+    mainConfigFile: '../app/js/common.js',
+    dir: '../build',
     modules: [
         //First set up the common build layer.
         {
@@ -11,9 +11,9 @@
             //top level dependencies, "include" will find
             //nested dependencies.
             include: ['jquery',
-                      'app/lib',
-                      'app/controller/Base',
-                      'app/model/Base'
+                'app/lib',
+                'app/controller/Base',
+                'app/model/Base'
             ]
         },
 
@@ -40,4 +40,4 @@
         }
 
     ]
-}
+})
