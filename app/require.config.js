@@ -5,9 +5,19 @@
 //Configure loading modules from the lib directory,
 //except for 'app' ones, which are in a sibling
 //directory.
+
+
+// requirejs.config({
+//     baseUrl: 'js/lib',
+//     paths: {
+//         app: '../app'
+//     }
+// });
+
+
 requirejs.config({
-    baseUrl: 'js/lib',
+    baseUrl: '../../resouce/lib',
     paths: {
-        app: '../app'
+        common: '../common-script'
     }
 });
