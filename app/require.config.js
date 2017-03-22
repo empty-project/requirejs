@@ -6,18 +6,11 @@
 //except for 'app' ones, which are in a sibling
 //directory.
 
-
-// requirejs.config({
-//     baseUrl: 'js/lib',
-//     paths: {
-//         app: '../app'
-//     }
-// });
-
-
 requirejs.config({
     baseUrl: '../../resouce/lib',
     paths: {
-        common: '../common-script'
+        common: '../common-script',
+        templates:'../../templates',
+        data:'../../data'
     }
 });
