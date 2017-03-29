@@ -1,1 +1,0 @@
-define(["./Base"],function(e){var n=new e("Controller 1");return n});

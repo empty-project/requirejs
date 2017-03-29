@@ -1,0 +1,1 @@
+!function(e){if("function"==typeof require&&"object"==typeof exports&&"object"==typeof module){var o=module.exports||exports;e(o)}else"function"==typeof define&&define.amd?define(["exports"],e):e(window.ko={})}(function(e){var o="undefined"!=typeof e?e:{};o.abc=function(e){alert(e)}});

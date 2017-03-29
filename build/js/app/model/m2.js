@@ -1,1 +1,0 @@
-define(["./Base"],function(e){var a=new e("This is the data for Page 2");return a});

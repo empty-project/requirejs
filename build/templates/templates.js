@@ -1,0 +1,1 @@
+define(["doT.min","text!templates/table-row.html","text!templates/dialog.html"],function(t,e,l){return{tablerow:t.template(e),dialog:t.template(l)}});

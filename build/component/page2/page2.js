@@ -1,0 +1,1 @@
+requirejs(["./common"],function(e){requirejs(["jquery","../app/lib","../app/controller/c2","../app/model/m2"],function(e,o,n,r){n.setModel(r),e(function(){n.render(o.getBody())})})});

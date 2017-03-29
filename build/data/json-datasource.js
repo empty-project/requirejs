@@ -1,0 +1,1 @@
+define(["json!data/customers.json"],function(n){var t=function(t){return n[t]},u=function(){return n},e=function(n){};return{get:t,list:u,update:e}});

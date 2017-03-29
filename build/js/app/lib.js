@@ -1,1 +1,0 @@
-define(["jquery"],function(n){return{getBody:function(){return n("body")}}});
